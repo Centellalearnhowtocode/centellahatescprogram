@@ -13,7 +13,7 @@ int main (){
 
   distanceCostDollars = distanceKm*ratePeKmDollars;
   waitingCostDollars=waitingMinute*ratePerMinuteDollars;
-  totalFareeDollars=baseFareDollars+distanceCostDollars+waitingCostDollars;
+  totalFareeDollars= baseFareDollars+distanceCostDollars+waitingCostDollars;
 
   printf("\nBase Fare ($)\t:\t");
   scanf("%f",&baseFareDollars);
@@ -25,11 +25,11 @@ int main (){
   scanf("%f",&waitingMinute);
   printf("Rate per min ($):\t");
   scanf("%f",&ratePerMinuteDollars);
-  
-  
+  scanf("%f",&totalFareeDollars);
+
 printf("==============================================");
-printf("TAXI FARE REPORT");
-printf("==============================================");
+printf("\nTAXI FARE REPORT");
+printf("\n==============================================");
  printf("\nBase Fare ($)\t:\t%f",ratePerMinuteDollars);
  printf("\nDistance (km)\t:\t%f",distanceKm);
  printf("\nRate per km ($) :\t%f",ratePeKmDollars);
@@ -40,3 +40,4 @@ printf("==============================================");
  //Excercise 2
   return 0;
 }
+
