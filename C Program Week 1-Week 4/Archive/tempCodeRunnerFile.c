@@ -1,1 +1,0 @@
-printf("Student Info\n");
