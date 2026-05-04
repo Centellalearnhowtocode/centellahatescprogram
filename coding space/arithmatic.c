@@ -5,6 +5,7 @@ int main(void){
 
   //++ increment operator by 1
   //-- decrement operator by 1
+  // + is an 
   int x = 10;
   int y = 2;
   int z = 0;
